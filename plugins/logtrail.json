@@ -14,7 +14,8 @@
         "display_timestamp" : "@timestamp",
         "hostname" : "kubernetes.host",
         "program": "kubernetes.labels.app",
-        "message": "message"
-    }
+        "message": "log"
+    },
+    "message_format": "{{{log}}}{{{message}}}"
   }
 }
