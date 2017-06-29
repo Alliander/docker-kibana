@@ -14,7 +14,7 @@
         "display_timestamp" : "@timestamp",
         "hostname" : "kubernetes.host",
         "program": "kubernetes.labels.app",
-        "message": "log"
+        "message": "MESSAGE"
     }
   }
 }
